@@ -1,5 +1,6 @@
 from sys import argv
 
+
 def main(ints):
     counter = 0
     for i in range(0, len(ints) - 3):
@@ -19,4 +20,3 @@ if __name__ == '__main__':
     with open(argv[1], 'r') as f:
         ints = list(map(int, f.readlines()))
     main(ints)
-
